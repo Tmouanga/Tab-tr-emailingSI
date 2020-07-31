@@ -1,0 +1,265 @@
+/**
+* GLOBAL
+*/
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+body {
+    background-color: black;
+    margin: auto;
+    width: 600px;
+    min-width: 200px;
+    max-width: 600px;
+    height: auto;
+}
+
+/**
+* HEADER
+*/
+.s-header {
+    top: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.068);
+    background-image: url("https://tmouanga.github.io/SphereImmo-Emailing_proprietaire/images/Appartement moderne.jpg");
+    height: 276px;
+}
+
+.header {
+    padding: 40px;
+}
+
+.header img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+/**
+* FIRST SECTION
+*/
+.s-RedFont {
+    background: linear-gradient(180deg, #d70f3d, #830b26);
+    height: 317px;
+}
+
+.redfont {
+    padding: 40px;
+    display: flex;
+}
+
+.redfont img {
+    width: 260px;
+    height: 215px;
+    min-width: 260px;
+}
+
+.redfont-text {
+    margin-left: 40px;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+}
+
+.redfont p {
+    color: white;
+}
+
+/**
+* SECOND SECTION
+*/
+.s-reasons {
+    background-color: white;
+    height: 100%;
+}
+
+.reasons {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+}
+
+.far, .fas {
+    font-size: 40px;
+    display: block;
+    padding: 20px;
+    margin-left: 90px;
+}
+
+.reasons p {
+    text-align: center;
+}
+
+/**
+* THIRD SECTION
+*/
+.s-trust {
+    background-color: #0d1d2c;
+}
+
+.s-trust h2 {
+    text-align: center;
+    padding-top: 40px ;
+    margin-top: 0;
+}
+
+.trust {
+    padding: 60px;
+    padding-top: 20px;
+    display: flex;
+} 
+
+.s-trust img {
+    width: 223px;
+    height: 224px;
+    min-width: 223px;
+}
+
+.s-trust p {
+    text-align: center;
+    color: white;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.s-trust a p {
+    margin-top: 45px;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: #e98000;
+    border-width: 13px;
+    border-radius: 40px;
+    background-color: #e98000;
+}
+
+/**
+* FOOTER
+*/
+.s-footer {
+    background-color: white;
+    height: auto;
+    display: block;
+}
+
+.footer {
+    text-align: center;
+}
+
+.fab {
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.texte-credits {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.s-footer p {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) /***Tab device*/ {
+
+      /**
+    * BODY SIZE EDIT
+    */
+    body {
+       width: auto;
+    }
+
+    /**
+    * FIRST RESPONSIVE SECTION
+    */
+    .s-RedFont {
+        height: auto;
+    }
+
+    .redfont {
+        padding: 40px;
+        display: block;
+    }
+
+    .redfont img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .redfont-text {
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    h2, p {
+        text-align: center;
+    }
+    
+    /**
+    * SECOND RESPONSIVE SECTION
+    */
+    .reasons {
+        padding: 40px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .far, .fas {
+        font-size: 40px;
+        padding: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /**
+    * THIRD RESPONSIVE SECTION
+    */
+    .trust {
+        padding: 60px;
+        padding-top: 20px;
+        display: block;
+    }
+
+    .s-trust p {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+    
+    .s-trust img {
+        display: block;
+        margin-left: auto ;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 480px) /***Mobile device*/ {
+    
+    .reasons {
+        display: block;
+    }
+
+}
